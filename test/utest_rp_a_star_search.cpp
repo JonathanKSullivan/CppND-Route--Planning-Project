@@ -130,8 +130,10 @@ class RoutePlannerTest : public ::testing::Test {
     float start_y = 0.1;
     float end_x = 0.9;
     float end_y = 0.9;
+
     RouteModel::Node* start_node = &model.FindClosestNode(start_x, start_y);
     RouteModel::Node* end_node = &model.FindClosestNode(end_x, end_y);
+  
 };
 
 
